@@ -1,0 +1,38 @@
+{
+  "entryPagePath": "pages/mine/mine",
+  "pages": [
+    "pages/index/index",
+    "pages/order/order",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "navigationBarTitleText": "海的味道",
+    "navigationBarBackgroundColor": "#9de",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/incon/index-1.png",
+        "selectedIconPath": "/images/incon/index-2.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "我的订单",
+        "iconPath": "/images/incon/order-1.png",
+        "selectedIconPath": "/images/incon/order-2.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "个人中心",
+        "iconPath": "/images/incon/mine-1.png",
+        "selectedIconPath": "/images/incon/mine-2.png"
+      }
+    ],
+    "color": "#515151",
+    "selectedColor": "#1296db"
+  },
+  "sitemapLocation": "sitemap28.json"
+}

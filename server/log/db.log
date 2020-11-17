@@ -1,0 +1,85 @@
+2020-11-17T11:01:01.485+0800 I  CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2020-11-17T11:01:01.918+0800 I  CONTROL  [initandlisten] MongoDB starting : pid=11956 port=27017 dbpath=D:\phpstudy_pro\WWW\weixin\StudyRoom\server\db 64-bit host=WIN-PA9C2KT8M1K
+2020-11-17T11:01:01.919+0800 I  CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2020-11-17T11:01:01.919+0800 I  CONTROL  [initandlisten] db version v4.2.2
+2020-11-17T11:01:01.919+0800 I  CONTROL  [initandlisten] git version: a0bbbff6ada159e19298d37946ac8dc4b497eadf
+2020-11-17T11:01:01.919+0800 I  CONTROL  [initandlisten] allocator: tcmalloc
+2020-11-17T11:01:01.919+0800 I  CONTROL  [initandlisten] modules: none
+2020-11-17T11:01:01.928+0800 I  CONTROL  [initandlisten] build environment:
+2020-11-17T11:01:01.928+0800 I  CONTROL  [initandlisten]     distmod: 2012plus
+2020-11-17T11:01:01.928+0800 I  CONTROL  [initandlisten]     distarch: x86_64
+2020-11-17T11:01:01.928+0800 I  CONTROL  [initandlisten]     target_arch: x86_64
+2020-11-17T11:01:01.928+0800 I  CONTROL  [initandlisten] options: { storage: { dbPath: "D:\phpstudy_pro\WWW\weixin\StudyRoom\server\db" }, systemLog: { destination: "file", path: "D:\phpstudy_pro\WWW\weixin\StudyRoom\server\log\db.log" } }
+2020-11-17T11:01:01.932+0800 I  STORAGE  [initandlisten] Detected data files in D:\phpstudy_pro\WWW\weixin\StudyRoom\server\db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2020-11-17T11:01:01.932+0800 I  STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1457M,cache_overflow=(file_max=0M),session_max=33000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000,close_scan_interval=10,close_handle_minimum=250),statistics_log=(wait=0),verbose=[recovery_progress,checkpoint_progress],
+2020-11-17T11:01:01.960+0800 I  STORAGE  [initandlisten] WiredTiger message [1605582061:960236][11956:140715159019088], txn-recover: Recovering log 1 through 2
+2020-11-17T11:01:02.050+0800 I  STORAGE  [initandlisten] WiredTiger message [1605582062:49994][11956:140715159019088], txn-recover: Recovering log 2 through 2
+2020-11-17T11:01:02.140+0800 I  STORAGE  [initandlisten] WiredTiger message [1605582062:139755][11956:140715159019088], txn-recover: Main recovery loop: starting at 1/22656 to 2/256
+2020-11-17T11:01:02.261+0800 I  STORAGE  [initandlisten] WiredTiger message [1605582062:260461][11956:140715159019088], txn-recover: Recovering log 1 through 2
+2020-11-17T11:01:02.345+0800 I  STORAGE  [initandlisten] WiredTiger message [1605582062:345203][11956:140715159019088], txn-recover: Recovering log 2 through 2
+2020-11-17T11:01:02.409+0800 I  STORAGE  [initandlisten] WiredTiger message [1605582062:409037][11956:140715159019088], txn-recover: Set global recovery timestamp: (0,0)
+2020-11-17T11:01:02.428+0800 I  RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2020-11-17T11:01:02.435+0800 I  STORAGE  [initandlisten] Timestamp monitor starting
+2020-11-17T11:01:02.445+0800 I  CONTROL  [initandlisten] 
+2020-11-17T11:01:02.445+0800 I  CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2020-11-17T11:01:02.445+0800 I  CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2020-11-17T11:01:02.445+0800 I  CONTROL  [initandlisten] 
+2020-11-17T11:01:02.445+0800 I  CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2020-11-17T11:01:02.445+0800 I  CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2020-11-17T11:01:02.445+0800 I  CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2020-11-17T11:01:02.445+0800 I  CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2020-11-17T11:01:02.445+0800 I  CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2020-11-17T11:01:02.445+0800 I  CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2020-11-17T11:01:02.445+0800 I  CONTROL  [initandlisten] 
+2020-11-17T11:01:02.449+0800 I  SHARDING [initandlisten] Marking collection local.system.replset as collection version: <unsharded>
+2020-11-17T11:01:02.452+0800 I  STORAGE  [initandlisten] Flow Control is enabled on this deployment.
+2020-11-17T11:01:02.452+0800 I  SHARDING [initandlisten] Marking collection admin.system.roles as collection version: <unsharded>
+2020-11-17T11:01:02.453+0800 I  SHARDING [initandlisten] Marking collection admin.system.version as collection version: <unsharded>
+2020-11-17T11:01:02.456+0800 I  SHARDING [initandlisten] Marking collection local.startup_log as collection version: <unsharded>
+2020-11-17T11:01:02.909+0800 I  FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'D:/phpstudy_pro/WWW/weixin/StudyRoom/server/db/diagnostic.data'
+2020-11-17T11:01:02.911+0800 I  SHARDING [LogicalSessionCacheRefresh] Marking collection config.system.sessions as collection version: <unsharded>
+2020-11-17T11:01:02.911+0800 I  NETWORK  [initandlisten] Listening on 127.0.0.1
+2020-11-17T11:01:02.911+0800 I  SHARDING [LogicalSessionCacheReap] Marking collection config.transactions as collection version: <unsharded>
+2020-11-17T11:01:02.911+0800 I  NETWORK  [initandlisten] waiting for connections on port 27017
+2020-11-17T11:01:03.003+0800 I  SHARDING [ftdc] Marking collection local.oplog.rs as collection version: <unsharded>
+2020-11-17T11:01:03.285+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:53644 #1 (1 connection now open)
+2020-11-17T11:01:03.322+0800 I  NETWORK  [conn1] received client metadata from 127.0.0.1:53644 conn1: { driver: { name: "nodejs|Mongoose", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v14.15.0, LE (unified)", version: "3.6.3|5.10.15" }
+2020-11-17T11:01:18.850+0800 I  NETWORK  [conn1] end connection 127.0.0.1:53644 (0 connections now open)
+2020-11-17T11:01:21.549+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:53646 #2 (1 connection now open)
+2020-11-17T11:01:21.559+0800 I  NETWORK  [conn2] received client metadata from 127.0.0.1:53646 conn2: { driver: { name: "nodejs|Mongoose", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v14.15.0, LE (unified)", version: "3.6.3|5.10.15" }
+2020-11-17T11:01:35.851+0800 I  NETWORK  [conn2] end connection 127.0.0.1:53646 (0 connections now open)
+2020-11-17T11:01:38.536+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:53648 #3 (1 connection now open)
+2020-11-17T11:01:38.544+0800 I  NETWORK  [conn3] received client metadata from 127.0.0.1:53648 conn3: { driver: { name: "nodejs|Mongoose", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v14.15.0, LE (unified)", version: "3.6.3|5.10.15" }
+2020-11-17T11:02:18.037+0800 I  NETWORK  [conn3] end connection 127.0.0.1:53648 (0 connections now open)
+2020-11-17T11:02:20.764+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:53652 #4 (1 connection now open)
+2020-11-17T11:02:20.773+0800 I  NETWORK  [conn4] received client metadata from 127.0.0.1:53652 conn4: { driver: { name: "nodejs|Mongoose", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v14.15.0, LE (unified)", version: "3.6.3|5.10.15" }
+2020-11-17T11:03:00.187+0800 I  NETWORK  [conn4] end connection 127.0.0.1:53652 (0 connections now open)
+2020-11-17T11:03:01.994+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:53657 #5 (1 connection now open)
+2020-11-17T11:03:02.004+0800 I  NETWORK  [conn5] received client metadata from 127.0.0.1:53657 conn5: { driver: { name: "nodejs|Mongoose", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v14.15.0, LE (unified)", version: "3.6.3|5.10.15" }
+2020-11-17T11:03:03.411+0800 I  NETWORK  [conn5] end connection 127.0.0.1:53657 (0 connections now open)
+2020-11-17T11:03:05.095+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:53658 #6 (1 connection now open)
+2020-11-17T11:03:05.101+0800 I  NETWORK  [conn6] received client metadata from 127.0.0.1:53658 conn6: { driver: { name: "nodejs|Mongoose", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v14.15.0, LE (unified)", version: "3.6.3|5.10.15" }
+2020-11-17T11:03:54.339+0800 I  NETWORK  [conn6] end connection 127.0.0.1:53658 (0 connections now open)
+2020-11-17T11:03:57.130+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:53665 #7 (1 connection now open)
+2020-11-17T11:03:57.140+0800 I  NETWORK  [conn7] received client metadata from 127.0.0.1:53665 conn7: { driver: { name: "nodejs|Mongoose", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v14.15.0, LE (unified)", version: "3.6.3|5.10.15" }
+2020-11-17T11:03:59.663+0800 I  NETWORK  [conn7] end connection 127.0.0.1:53665 (0 connections now open)
+2020-11-17T11:04:02.516+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:53669 #8 (1 connection now open)
+2020-11-17T11:04:02.523+0800 I  NETWORK  [conn8] received client metadata from 127.0.0.1:53669 conn8: { driver: { name: "nodejs|Mongoose", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v14.15.0, LE (unified)", version: "3.6.3|5.10.15" }
+2020-11-17T11:04:05.855+0800 I  CONTROL  [thread9] CTRL_CLOSE_EVENT signal
+2020-11-17T11:04:05.855+0800 I  CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2020-11-17T11:04:05.856+0800 I  NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2020-11-17T11:04:05.856+0800 I  -        [consoleTerminate] Stopping further Flow Control ticket acquisitions.
+2020-11-17T11:04:05.857+0800 I  CONTROL  [consoleTerminate] Shutting down free monitoring
+2020-11-17T11:04:05.857+0800 I  FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2020-11-17T11:04:05.861+0800 I  STORAGE  [consoleTerminate] Deregistering all the collections
+2020-11-17T11:04:05.862+0800 I  STORAGE  [consoleTerminate] Timestamp monitor shutting down
+2020-11-17T11:04:05.863+0800 I  STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2020-11-17T11:04:05.863+0800 I  STORAGE  [consoleTerminate] Shutting down session sweeper thread
+2020-11-17T11:04:05.863+0800 I  STORAGE  [consoleTerminate] Finished shutting down session sweeper thread
+2020-11-17T11:04:05.863+0800 I  STORAGE  [consoleTerminate] Shutting down journal flusher thread
+2020-11-17T11:04:05.902+0800 I  STORAGE  [consoleTerminate] Finished shutting down journal flusher thread
+2020-11-17T11:04:05.902+0800 I  STORAGE  [consoleTerminate] Shutting down checkpoint thread
+2020-11-17T11:04:05.902+0800 I  STORAGE  [consoleTerminate] Finished shutting down checkpoint thread
+2020-11-17T11:04:05.919+0800 I  STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2020-11-17T11:04:05.919+0800 I  CONTROL  [consoleTerminate] now exiting
+2020-11-17T11:04:05.919+0800 I  CONTROL  [consoleTerminate] shutting down with code:12
