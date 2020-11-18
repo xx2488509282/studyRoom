@@ -38,7 +38,6 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.14.0",
-  "appid": "wx6b3c880cf0473d16",
   "projectname": "Room",
   "debugOptions": {
     "hidedInDevtools": []
@@ -47,6 +46,7 @@
   "isGameTourist": false,
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
+  "appid": "wx6b3c880cf0473d16",
   "condition": {
     "search": {
       "list": []
