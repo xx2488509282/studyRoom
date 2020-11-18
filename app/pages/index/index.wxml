@@ -1,2 +1,117 @@
 <!--pages/index/index.wxml-->
-<text>pages/index/index.wxml</text>
+<!-- 以下是轮播图部分 -->
+<!-- 以下是轮播图部分 -->
+<view class="banner">
+  <swiper class="banner-swiper" autoplay="true" interval="3000" duration="500" circular="true">
+    <swiper-item class="banner-item">
+      <image class="banner-item-img" src="../../images/index/banner/swiper1.svg"></image>
+    </swiper-item>
+    <swiper-item class="banner-item">
+      <image class="banner-item-img" src="../../images/index/banner/swiper2.svg"></image>
+    </swiper-item>
+  </swiper>
+</view>
+<!-- 以下是"选择座位"部分 -->
+<!-- 以下是"选择座位"部分 -->
+<view class="chooseSeat">
+  <view class="tit">
+    <text>选择座位</text>
+  </view>
+  <view class="chooseSeat-Btn-Wrap">
+    <view class="btn-left">
+      <text class="seat-btn-tit">双人阅读区</text>
+      <text class="seat-btn-info">供2个人使用</text>
+      <text class="seat-btn-info">独立私密的阅读环境</text>
+      <view class="btn-big">立即预约</view>
+    </view>
+    <view class="btn-right">
+      <view class="btn-right-top">
+        <view class="seat-btn-line1">
+          <text class="seat-btn-tit">明区-单人</text>
+          <view class="btn-small">立即预约</view>
+        </view>
+        <text class="seat-btn-info">开放的单人学习区域</text>
+      </view>
+      <view class="btn-right-btm">
+        <view class="seat-btn-line1">
+          <text class="seat-btn-tit">暗区-单人</text>
+          <view class="btn-small">立即预约</view>
+        </view>
+        <text class="seat-btn-info">幽静的单人学习区域</text>
+      </view>
+    </view>
+  </view>
+</view>
+<!-- 以下是"自习室地址"部分 -->
+<!-- 以下是"自习室地址"部分 -->
+<view class="site">
+  <view class="room-address">自习室地址</view>
+  <view class="address-wrap">
+    <view class="address-title">
+      <image class="location-icon" src="../../images/index/location.png"></image>
+      <view>福建省福州市台江区天厝路350-5号</view>
+    </view>
+    <view>
+      <view class="address-btn">查看地图 ></view>
+    </view>
+  </view>
+</view>
+<!-- 以下是"空间介绍"部分 -->
+<!-- 以下是"空间介绍"部分 -->
+<view class="spaceWrap">
+<view class="space">
+  <view class="space-tit">空间介绍</view>
+  <view>
+    <image class="space-img" src="../../images/index/banner/swiper1.svg"></image>
+    <view>在开放的单人区学习，你可以感受周围浓烈的学习氛围，无论是上网还是看书、刷题、乃至办公，效果都极佳！更有机会认识一群爱学习的好书友!</view>
+  </view>
+  <view>
+    <image class="space-img" src="../../images/index/banner/swiper2.svg"></image>
+    <view>在开放的单人区学习，你可以感受周围浓烈的学习氛围，无论是上网还是看书、刷题、乃至办公，效果都极佳！更有机会认识一群爱学习的好书友!</view>
+  </view>
+</view>
+<view class="step-wrap">
+  <view class='room-address'>学习流程</view>
+  <view class="step">
+    <view class="step-con">
+      <view class="circle">1</view>
+      <view>线上付费预约</view>
+    </view>
+  </view>
+  <view class="step">
+    <view class="step-con">
+      <view class="circle">2</view>
+      <view>门店扫码开门</view>
+    </view>
+  </view>
+  <view class="step">
+    <view class="step-con">
+      <view class="circle">3</view>
+      <view>对应位置入座</view>
+    </view>
+  </view>
+  <view class="step">
+    <view class="step-con">
+      <view class="circle">4</view>
+      <view>扫码开灯学习</view>
+    </view>
+  </view>
+</view>
+<view class='room-address'>注意事项</view>
+<view class="tips-wrap">
+  <view class="tips-wrap">
+    <view class="tips">
+      <view class="tips-title">关于声音控制</view>
+      <view class="tips-mes">在自习室内，请自觉保持安静。请控制声量，将手机调成静音状态。如有接电话需求，请移步公共区域。</view>
+    </view>
+    <view class="tips">
+      <view class="tips-title">关于饮食</view>
+      <view class="tips-mes">请不要在自习室吃带有浓厚气味的食品。</view>
+    </view>
+    <view class="tips">
+      <view class="tips-title">关于座位</view>
+      <view class="tips-mes">请勿占用无人座位，请勿随意涂鸦，离开座位前请将椅子归位，并扫码关灯。</view>
+    </view>
+  </view>
+</view>
+</view>
