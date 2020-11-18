@@ -38,8 +38,8 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.14.0",
-  "appid": "wx6b3c880cf0473d16",
-  "projectname": "Room",
+  "appid": "wx79c4b9ce12b9f156",
+  "projectname": "app",
   "debugOptions": {
     "hidedInDevtools": []
   },
