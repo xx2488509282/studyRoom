@@ -1,0 +1,90 @@
+/* pages/index/index.wxss */
+.readRoom{
+  width: 90%;
+  margin: 20rpx auto;
+  border-radius: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.read{
+  flex: 1;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  font-size: 24rpx;
+  color: #fff;
+  margin: 0 1rpx;
+  background-color: #AAAAAA;
+}
+.dateWrap{
+  display: flex;
+  margin-left: 20rpx;
+}
+.date{
+  padding-bottom: 20rpx;
+  padding-right: 20rpx;
+  border-bottom: 1rpx solid rgb(195, 195, 240);
+}
+.text{
+  white-space: nowrap;
+  font-size: 24rpx;
+}
+.select{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20rpx 0;
+  font-size: 24rpx;
+}
+.selected{
+  display: flex;
+  margin: 0 15rpx;
+}
+.all{
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 10rpx;
+  margin-right: 10rpx;
+}
+.full{
+  background-color: #AAAAAA;
+}
+.free{
+  background-color: #81D3F8;
+}
+.chose{
+  background-color:#D94154 ;
+}
+.wrap{
+  width: 1200rpx;
+  display: flex;
+}
+.yue{
+  width: 160rpx;
+  margin: 10rpx 40rpx;
+  text-align: center;
+}
+.time{
+  width: 160rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 20rpx;
+  margin: 30rpx 0;
+  border: 1px solid #eee;
+  background-color: #81D3F8;
+  color: #fff;
+}
+.btn{
+  width: 100%;
+  height: 90rpx;
+  line-height: 90rpx;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #9493D7;
+  color: #fff;
+  border-radius: 0;
+  font-size: 28rpx;
+}

@@ -1,0 +1,39 @@
+<!--pages/pay/pay.wxml-->
+<!--pages/item/item.wxml-->
+<view class="itemWrap">
+  <view class="item">
+    <view class="seat">
+      <image class="img" src="../../images/pay/sit.png" />
+      <text>预约座位</text>
+    </view>
+    <text>双人区-5号桌</text>
+  </view>
+  <view class="item">
+    <view class="seat">
+      <image class="img" src="../../images/pay/time.png" />
+      <text>预约时间</text>
+    </view>
+    <text>16:00-17:00</text>
+  </view>
+  <view class="item">
+    <view class="seat">
+      <image class="img" src="../../images/pay/money.png" />
+      <text>整体金额</text>
+    </view>
+    <text>￥15.5元</text>
+  </view>
+  <view class="item">
+    <view class="seat">
+      <image class="img" src="../../images/pay/quan.png" />
+      <text>我的卡券</text>
+    </view>
+    <text>两张可用</text>
+  </view>
+</view>
+
+<view class="bottom">
+  <view class="money">金额：￥25.5元</view>
+  <button class="btn">确认预约支付</button>
+</view>
+
+

@@ -1,17 +1,11 @@
-// pages/index/index.js
+// pages/pay/pay.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    
-  },
-  selectSeatAction(ev){
-    wx.navigateTo({
-      url: '/pages/seat/seat',
-    })
-    
+
   },
 
   /**
