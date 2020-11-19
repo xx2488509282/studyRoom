@@ -1,7 +1,7 @@
 <!--pages/index/index.wxml-->
 <!--************************ 阅读室分类 ************************ -->
 <view class="readRoom">
-  <view class="read" wx:for="{{readList}}" wx:key="index" >{{item}}</view>
+  <view class="read" wx:for="{{readList}}" wx:key="index" bindtap="selectReadAction" data-index="{{item}}" style="background: {{item === isRoom?'#8B8AD5': '#AAAAAA'}}" >{{item}}</view>
 </view>
 
 
@@ -10,7 +10,7 @@
 <scroll-view scroll-x="{{true}}">
   <view class="dateWrap">
   <view class="date" wx:for="{{dayList}}" wx:key="index">
-    <text class="text">{{item}}</text>
+    <text class="text" bindtap="selectDateAction" data-date="{{item}}" style="color: {{item === isDate?'#8080FF': '#333'}} ;border-bottom:{{item === isDate?'3px solid #8080FF': 'none'}}" >{{item}}</text>
   </view>
 </view>
 </scroll-view>

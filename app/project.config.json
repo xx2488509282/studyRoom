@@ -48,23 +48,23 @@
   "simulatorPluginLibVersion": {},
   "appid": "wx79c4b9ce12b9f156",
   "condition": {
-    "search": {
-      "list": []
-    },
-    "conversation": {
+    "plugin": {
       "list": []
     },
     "game": {
-      "list": []
-    },
-    "plugin": {
       "list": []
     },
     "gamePlugin": {
       "list": []
     },
     "miniprogram": {
-      "list": []
+      "list": [
+        {
+          "name": "座位",
+          "pathName": "pages/seat/seat",
+          "scene": 1001
+        }
+      ]
     }
   }
 }

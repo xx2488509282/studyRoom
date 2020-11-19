@@ -29,7 +29,12 @@
 }
 .text{
   white-space: nowrap;
+  padding-bottom: 18rpx;
   font-size: 24rpx;
+}
+.txt{
+  color: #8080FF;
+  border-bottom:3px solid #8080FF;
 }
 .select{
   width: 100%;

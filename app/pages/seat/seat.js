@@ -13,11 +13,19 @@ Page({
         {num:[1,2,3,4,5,6,7]},
         {num:[1,2,3,4,5,6,7]},
       ],
-      readList:['双人阅读区','明区-单人','暗区-单人']
+      readList:['双人阅读区','明区-单人','暗区-单人'],
+      isRoom:'双人阅读区',
+      isDate:'周一(05.09)'
   },
   selectedAction(ev){
     // console.log(ev);
     
+  },
+  selectReadAction(ev){
+    this.setData({isRoom:ev.currentTarget.dataset.index})
+  },
+  selectDateAction(ev){
+    this.setData({isDate:ev.currentTarget.dataset.date})
   },
   payAction(){
     wx.navigateTo({
