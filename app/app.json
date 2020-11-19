@@ -3,7 +3,9 @@
   "pages": [
     "pages/index/index",
     "pages/order/order",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/seat/seat",
+    "pages/pay/pay"
   ],
   "window": {
     "navigationBarTitleText": "海的味道",

@@ -18,21 +18,21 @@
     <text>选择座位</text>
   </view>
   <view class="chooseSeat-Btn-Wrap">
-    <view class="btn-left">
+    <view class="btn-left" bindtap="selectSeatAction" data-title="{{'双人阅读区'}}">
       <text class="seat-btn-tit">双人阅读区</text>
       <text class="seat-btn-info">供2个人使用</text>
       <text class="seat-btn-info">独立私密的阅读环境</text>
       <view class="btn-big">立即预约</view>
     </view>
     <view class="btn-right">
-      <view class="btn-right-top">
+      <view class="btn-right-top" bindtap="selectSeatAction" data-title="{{'明区-单人'}}">
         <view class="seat-btn-line1">
           <text class="seat-btn-tit">明区-单人</text>
           <view class="btn-small">立即预约</view>
         </view>
         <text class="seat-btn-info">开放的单人学习区域</text>
       </view>
-      <view class="btn-right-btm">
+      <view class="btn-right-btm" bindtap="selectSeatAction" data-title="{{'暗区-单人'}}">
         <view class="seat-btn-line1">
           <text class="seat-btn-tit">暗区-单人</text>
           <view class="btn-small">立即预约</view>

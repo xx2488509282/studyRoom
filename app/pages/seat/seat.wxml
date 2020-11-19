@@ -1,0 +1,44 @@
+<!--pages/index/index.wxml-->
+<!--************************ 阅读室分类 ************************ -->
+<view class="readRoom">
+  <view class="read" wx:for="{{readList}}" wx:key="index" >{{item}}</view>
+</view>
+
+
+
+<!--************************ 预约日期 ************************ -->
+<scroll-view scroll-x="{{true}}">
+  <view class="dateWrap">
+  <view class="date" wx:for="{{dayList}}" wx:key="index">
+    <text class="text">{{item}}</text>
+  </view>
+</view>
+</scroll-view>
+<view class="select">
+  <view class="selected">
+    <view class="all full"></view>
+    <text>已满</text>
+  </view>
+  <view class="selected">
+    <view class="all free"></view>
+    <text>空闲</text>
+  </view>
+  <view class="selected">
+    <view class="all chose"></view>
+    <text>已选</text>
+  </view>
+</view>
+<!--************************ 座位号 ************************ -->
+<scroll-view scroll-x="{{true}}" class="scroll">
+<view  class="wrap">
+<view class="yue" wx:for="{{list}}" wx:key='index' wx:for-index='keys'>
+  <text>{{keys+1}}号</text>
+  <view wx:for="{{item.num}}" wx:key='index'>
+    <view class="time" bindtap="selectedAction" data-x="{{keys}}" data-y="{{index}}">{{item}}</view>
+  </view>
+</view>
+</view>
+</scroll-view>
+
+
+<button class="btn" bindtap="payAction">立即预约</button>

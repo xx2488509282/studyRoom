@@ -5,13 +5,24 @@ Page({
    * 页面的初始数据
    */
   data: {
+    dayList:["周一(05.09)","周二(05.10)","周三(05.11)","周四(05.12)","周五(05.13)","周六(05.14)","周日(05.15)"],
+      list:[
+        {num:['10:00-12:00',2,3,4,5,6,7]},
+        {num:[1,2,3,4,5,6,7] },
+        {num:[1,2,3,4,5,6,7]},
+        {num:[1,2,3,4,5,6,7]},
+        {num:[1,2,3,4,5,6,7]},
+      ],
+      readList:['双人阅读区','明区-单人','暗区-单人']
+  },
+  selectedAction(ev){
+    // console.log(ev);
     
   },
-  selectSeatAction(ev){
+  payAction(){
     wx.navigateTo({
-      url: '/pages/seat/seat',
+      url: '/pages/pay/pay',
     })
-    
   },
 
   /**
